@@ -1,47 +1,79 @@
+/* Style général */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    margin: 0;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
 
-  .card {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    max-width: 500px;
-    width: 100%;
-  }
+/* Conteneur principal */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
-  .card h2 {
-    margin-top: 0;
-    color: #2c3e50;
-  }
+/* En-tête */
+.header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+}
 
-  .info {
-    margin-bottom: 1rem;
-  }
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
 
-  .label {
-    font-weight: bold;
-    color: #34495e;
-  }
+.header p {
+  margin-top: 10px;
+  font-style: italic;
+}
 
-  .btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.2s ease-in-out;
-  }
+/* Sections */
+.section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-left: 5px solid #3f51b5;
+  border-radius: 8px;
+}
 
-  .btn:hover {
-    background-color: #2980b9;
-  }
+.section h2 {
+  margin-top: 0;
+  color: #3f51b5;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 8px;
+}
+
+/* Code styling */
+code {
+  background-color: #e1e1e1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #d63384;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 0 0 12px 12px;
+  font-size: 0.9em;
+}
