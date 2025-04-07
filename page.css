@@ -50,13 +50,17 @@ body {
   }
 .div{
      background-color: black;
-     color: white;
      border: solid 2px black;
      margin: 2px;
      padding: 2px;
 }
 
-.titre{
+.text{
+  color: white;
+  padding: 1px;
+
+}
+.title{
   color: black;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
