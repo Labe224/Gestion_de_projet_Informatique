@@ -45,3 +45,39 @@ body {
   .btn:hover {
     background-color: #2980b9;
   }
+  body{
+    background-color: White;
+  }
+.div{
+     background-color: black;
+     border: solid 2px black;
+     margin: 2px;
+     padding: 2px;
+}
+
+.text{
+  color: white;
+  padding: 1px;
+
+}
+.title{
+  color: black;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+
+.container{
+  height: auto;
+  margin: 2px;
+}
+
+.section{
+  padding: 2px;
+  background-color: black;
+  color: white;
+}
+
+li{
+  padding-top: 2px;
+}
