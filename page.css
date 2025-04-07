@@ -45,3 +45,22 @@ body {
   .btn:hover {
     background-color: #2980b9;
   }
+  body{
+    background-color: White;
+  }
+.div{
+     background-color: black;
+     color: white;
+     border: solid 2px black;
+     margin: 2px;
+     padding: 2px;
+}
+
+.titre{
+  color: black;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+
+  
